@@ -4,7 +4,8 @@
   "description": "Practica Taller de Programacion 2/2022",
   "main": "trabajoPractico1.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "index.html"
   },
   "keywords": [],
   "author": "mrcsmchll",
