@@ -1,6 +1,4 @@
-// import fs from 'fs'
-const prompt = require("prompt-sync")();
-
+//TODO: REVISAR
 let input = prompt("Ingrese ruta del archivo:");
 
 function readFileAsString(input) {
