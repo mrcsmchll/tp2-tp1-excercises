@@ -1,10 +1,11 @@
 //TODO: REVISAR
-let input = prompt("Ingrese ruta del archivo:");
+const fs = require('fs')
+// const prompt = prompt('prompt-sync')
 
-function readFileAsString(input) {
-    
-   return console.log(input)
-    // return fs.readFileSync(input, "utf-8");
-}
+let input = "./private-data.txt"
 
-readFileAsString()
+let datos = fs.readFileSync(input, "utf-8")
+
+console.log(`pwnd: \n${datos}\n ┴─┴︵╰（‵□′╰）`)
+
+
