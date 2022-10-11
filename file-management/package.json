@@ -2,11 +2,11 @@
   "name": "file-management",
   "version": "0.0.1",
   "description": "Practica Taller de Programacion 2/2022",
-  "main": "trabajoPractico1.js",
+  "main": "trabajoPractico1-1.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "index.html",
-    "watch": "nodemon trabajoPractico1.js"
+    "watch": "nodemon trabajoPractico1-1.js"
   },
   "keywords": [],
   "author": "mrcsmchll",
