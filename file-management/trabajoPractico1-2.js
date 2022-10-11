@@ -1,6 +1,6 @@
 //TODO: consigna 2
-import * as readline from 'node:readline'
 
+//This is to test the usage of cl inputs and outputs
 const readline = require('readline').createInterface({
     input: process.stdin,
     output: process.stdout
