@@ -1,14 +1,6 @@
 //TODO: consigna 2
+const fs = require("fs");
 
-//This is to test the usage of cl inputs and outputs
-const readline = require('readline').createInterface({
-    input: process.stdin,
-    output: process.stdout
-  });
+fs.appendFileSync(filePath, `\nAdded data: ${new Date().toLocaleDateString()} | ${new Date().toLocaleTimeString()}`)
 
-  readline.question('Who are you?', name => {
-    console.log(`Hey there ${name}!`);
-    readline.close();
-  })
-
-  
+fileData = fs.readFileSync(filePath, "utf-8")
