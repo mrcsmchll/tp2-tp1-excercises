@@ -1,4 +1,4 @@
-//TODO: consigna 2
+//consigna 2
 const fs = require("fs");
 
 const text = `\nAdded data: ${new Date().toLocaleDateString()} | ${new Date().toLocaleTimeString()}`;
