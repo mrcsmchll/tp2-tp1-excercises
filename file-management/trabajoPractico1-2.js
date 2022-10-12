@@ -1,6 +1,20 @@
 //TODO: consigna 2
 const fs = require("fs");
 
-fs.appendFileSync(filePath, `\nAdded data: ${new Date().toLocaleDateString()} | ${new Date().toLocaleTimeString()}`)
+const text = `\nAdded data: ${new Date().toLocaleDateString()} | ${new Date().toLocaleTimeString()}`;
+let flag = false;
+let ruta = "./write-data.txt"
 
-fileData = fs.readFileSync(filePath, "utf-8")
+
+function escribirTextoEnArchivo() {
+  if (flag) {
+    fs.writeFileSync(ruta, text)
+  } else {
+    console.log("el archivo no existe");
+  }
+};
+
+escribirTextoEnArchivo();
+
+
+
