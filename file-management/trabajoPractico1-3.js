@@ -6,6 +6,8 @@ const transformarStringEnArrayDeNumeros = (text, charSep) => {
     let separatedText;
     separatedText = text.split(charSep)
     for (i = 0; i < text.length; i++) {
+
+
         
     }
     return resultado
@@ -13,9 +15,8 @@ const transformarStringEnArrayDeNumeros = (text, charSep) => {
 }
 
 
-
 let texto = "123 | 456 | 789 | 1bc | 10";
 let separador = " | "  
 
 // expected Output: [123, 456, 789, 10]
-console.log(texto.length)
+console.log(typeof texto.split(separador))

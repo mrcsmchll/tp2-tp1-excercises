@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "index.html",
-    "watch": "nodemon trabajoPractico1-1.js"
+    "watch": "nodemon trabajoPractico1-3.js"
   },
   "keywords": [],
   "author": "mrcsmchll",
