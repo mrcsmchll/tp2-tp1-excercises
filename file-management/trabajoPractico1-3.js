@@ -3,20 +3,14 @@
 const transformarStringEnArrayDeNumeros = (text, charSep) => {
 
     let resultado = []
-    let separatedText;
-    separatedText = text.split(charSep)
-    for (i = 0; i < text.length; i++) {
-
-
-        
-    }
-    return resultado
+    let separatedText = text.split(charSep)
+    return resultado = separatedText.filter(element => Number(element))
 
 }
 
 
 let texto = "123 | 456 | 789 | 1bc | 10";
-let separador = " | "  
+let separador = " | "
 
+console.log(transformarStringEnArrayDeNumeros(texto, separador))
 // expected Output: [123, 456, 789, 10]
-console.log(typeof texto.split(separador))
